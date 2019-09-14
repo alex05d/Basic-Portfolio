@@ -20,6 +20,7 @@ body, html {
     width: 960px;
     height: auto;
     margin: 0 auto 0 auto;
+    position: relative;
 }
 h1 {
     color:white;
@@ -63,12 +64,12 @@ ul li {
     margin: 2px;
 }
 #first {
-    border-right: 2px solid;
+    border-right: 1px solid;
     padding-right: 0.5em;
     color: #777777;
 }
 #second {
-    border-right: 2px solid;
+    border-right: 1px solid;
     padding-right: 0.5em;
     color: #777777;
 }
@@ -94,6 +95,13 @@ section {
     width: 200px;
     border: 2px solid;
     float: left;
+    background-image: url(../images/shark.jpg);
+    background-size: 200px 275px; 
+}
+p {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 20px;
+    line-height: 30px;
 }
 footer {
     position: sticky;
@@ -110,7 +118,7 @@ footer {
 .wrapper::after {
     content:"";
     display:block;
-    margin-bottom: -120px;
+    margin-bottom: 0px;
 }
 footer, .wrapper::after {
     height: 80px;
@@ -154,8 +162,6 @@ input[type=text], select, textarea {
       width: 200px;
       margin: 20px; 
       text-align: center;
-      border: 2px solid;
-      border-color: black;
       position: relative;
       float: left;
   }
