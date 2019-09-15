@@ -1,5 +1,6 @@
 body, html {
     display: table;
+    position: relative;
     margin: 0px;
     padding: 0px;
     height: 100%;
@@ -91,20 +92,19 @@ section {
 #picture {
     position: relative;
     margin: 5px 20px 10px 0px;
-    height: 200px;
+    height: 255px;
     width: 200px;
     border: 2px solid;
     float: left;
-    background-image: url(../images/shark.jpg);
-    background-size: 200px 275px; 
 }
+ 
 p {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     font-size: 20px;
     line-height: 30px;
 }
 footer {
-    position: sticky;
+    position: absolute;
     width:100%;
     height:80px;
     background-color:#666666;
